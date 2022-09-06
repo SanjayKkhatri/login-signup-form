@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SIGNUP</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="main2">
+        <div class="SignupHere">
+            <h1>Sign Up</h1>
+            <form id="Signupform" action="./index.html" method="post">
+                <label for="name"> Your Name : <br>
+                    <input type="text"  id="name" required placeholder="Enter Your Name">
+                </label> 
+                <br/> <br/>
+                <label for="email"> Email : <br/>
+                    <input type="email" id="email" required placeholder="Enter Your Valid Email">
+                </label>
+                <br/> <br/>
+                <label for="password"> Password : <br/>
+                    <input type="password" id="password" required placeholder="Enter Your Password">
+                </label>
+                <br/> <br/>
+                <label for="password">Confirm Password :
+                    <input type="password" id="password" required placeholder="Confirm Password" >
+                </label>
+                <br><br>
+                <label for="gender">Gender :</label><br>
+                    <input type="radio" name="gender" id="male" required><label for="male">&nbsp;&nbsp;Male &nbsp;&nbsp;&nbsp;</label><input type="radio" name="gender" required id="Female"><label for="Female">&nbsp;&nbsp;Female&nbsp;&nbsp;&nbsp;</label><input type="radio" name="gender" required id="other"><label for="other">&nbsp;&nbsp;Others&nbsp;&nbsp;&nbsp;</label>
+                <br/> <br/>
+                <label for="Languages">Languages : <br/> 
+               <input type="checkbox" name="Languages" id="urdu"> &nbsp;
+                 <span id="urdu">Urdu</span> 
+                 &nbsp;&nbsp;&nbsp;&nbsp;
+                 <input type="checkbox" name="Languages" id="english"> &nbsp;
+                 <span id="english">English </span>   
+                 &nbsp;&nbsp;&nbsp;&nbsp;
+                 <input type="checkbox" name="Languages" id="sindhi"> &nbsp;
+                 <span id="sindhi">Sindhi</span>   
+                </label>
+                <br/> <br/>
+            <button type="submit" id="submit">Submit</button>
+            </form>
+        </div>
+    </div>
+    
+</body>
+</html>
